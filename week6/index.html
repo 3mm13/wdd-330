@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="main.js" defer></script>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +9,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>ToDos</h1>
     
-    <li class="todoList">
+    <ul id="todoList">
+
+    </ul>
+    <button class="filters" onclick="filterAll()">All</button>
+    <button class="filters" onclick="filterActive()">Active</button>
+    <button class="filters" onclick="filterCompleted()">Completed</button>
+
         
 
-    </form>
 
-    <form>
+    <footer>
         <input name="addTodo" id="addToDo" type="text" placeholder="Add your ToDo Task here">
-        <input type="hidden" name="action" value="submitTodo">
-        <input type="submit" name="submit" id="submitTodo" value="Submit Todo"><br><br>
-    </form>
+        <!-- <input type="hidden" name="action" value="submitTodo"> -->
+        <button id="submitTodo">Create</button>
+    </footer>
+        
     
+    <script src="todo.js" defer></script>
 </body>
 </html>

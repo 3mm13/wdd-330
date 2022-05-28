@@ -1,3 +1,46 @@
 #addToDo {
     width: 750px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+ul li:last-child {
+    border-bottom: none
+}
+
+#deleteButton {
+    float: right;
+}
+
+.addTodo {
+    width: 1300px;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+}
+
+input[type="checkbox"]:checked+span {
+    text-decoration: line-through;
+
 }

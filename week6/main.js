@@ -1,10 +1,11 @@
+import todo from './task.js';
 
-function createTodoElement() {
-    var elem = document.createElement("li");
-    var inputValue = document.getElementById("submitTodo").value;
-    var text = document.createTextNode(inputValue);
-    elem.appendChild(text);
-    if (input == '') {
-        ""
-    }
-}
+
+let taskArray = [];
+
+document.querySelector("#submitTodo").addEventListener("click", () => {
+    let li = document.createElement("li");
+    let inputValue = document.getElementById("addToDo").value;
+    const myTask = new Tasks(li, inputValue);
+});
+
