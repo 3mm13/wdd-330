@@ -11,6 +11,11 @@ ul {
     list-style-type: none;
     padding: 0;
     border: 1px solid #ddd;
+
+
+}
+#ulWrapper {
+    align-self: center;
 }
 
 ul li {
@@ -43,4 +48,9 @@ footer {
 input[type="checkbox"]:checked+span {
     text-decoration: line-through;
 
+}
+
+
+.todoList {
+    max-width: 300px;
 }

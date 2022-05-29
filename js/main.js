@@ -21,6 +21,10 @@ function populateList() {
         {
             label: "Week 5: Notes",
             url: "week5/index.html"
+        },
+        {
+            label: "ToDo Application",
+            url: "week6/index.html"
         }
     ]
 
