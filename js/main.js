@@ -28,7 +28,7 @@ function populateList() {
         },
         {
             label: "Week 7: Notes",
-            url: "week7/hiking-complete.html",
+            url: "week7/index.html",
         }
     ]
 
