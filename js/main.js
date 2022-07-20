@@ -50,7 +50,13 @@ function populateList() {
 
     for(let i = 0; i < links.length; i++){
         var li = document.createElement("li");
-        li.innerHTML = `<a href="${links[i]["url"]}">Week0${i+1}</a>`
+        if(i == (links.length -1)) {
+            li.innerHTML = `<a href="${links[i]["url"]}">Finale Project</a>`
+        }
+        else {
+            li.innerHTML = `<a href="${links[i]["url"]}">Week ${i+1}</a>`
+        }
+        
         document.querySelector("#list").appendChild(li);
         
     }
