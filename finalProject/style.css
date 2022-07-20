@@ -1,0 +1,99 @@
+html {
+    font-family: Monospace;
+}
+button {
+    border: none;
+    color: #967bb6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.containerWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Passwords{
+    justify-self: center;
+    /* border-style: solid; */
+
+}
+.generatePassword {
+    justify-self: center;
+    /* border-style: solid; */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+}
+#generated {
+    position: relative;
+    left: 210px;
+}
+#generateString{
+    position: relative;
+    left: 170px;
+}
+
+#deleteButton {
+    float: right;
+}
+.create{
+    width: 100%;
+}
+button:hover {
+    color: white;
+    background-color: #967bb6;
+}
+
+ul li{
+ 
+ padding: .8em;
+ width: 100%;
+ margin-top: 1em;
+ margin-bottom: .25em;
+ text-decoration: none;
+ border-color: #393939;
+ border: solid;
+ border-width: .1em;
+ 
+}
+
+li a span{
+    margin-left: .3em;
+}
+
+
+#addButton {
+    background: blue;
+    font-size: 3rem;
+    border-radius: .3em;
+    padding: .25em;
+    cursor: pointer;
+
+
+}
+
+footer {
+    margin-top: auto;
+}
+
+#dropdown{
+    display: none;
+    background: white;
+    border-radius: .3em;
+    position: absolute;
+    left: .1em;
+    padding: .5em;
+    width: 150px;
+    box-sizing: border-box;;
+}
+
+.topContainer {
+    position: relative;
+}
+

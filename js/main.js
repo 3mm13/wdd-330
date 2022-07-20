@@ -37,6 +37,14 @@ function populateList() {
         {
             label: "Week 9: Notes",
             url: "week9/index.html"
+        },
+        {
+            label: "Week 11: Notes",
+            url: "week11/index.html"
+        },
+        {
+            label: "Final Project",
+            url: "finalProject/index.html"
         }
     ]
 
